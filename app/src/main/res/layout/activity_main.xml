@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="baseUseClick"
+        android:padding="20dp"
+        android:text="基本使用"
+        android:textSize="20sp" />
+
+    <TextView
+        android:onClick="commonAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="万能Adapter和多布局"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:onClick="headerFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加头部和底部"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:onClick="refreshLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新上拉加载"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:onClick="refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View下拉刷新上拉加载"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:onClick="dragSorting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拖动排序"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"/>
+</LinearLayout>
